@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interno</title>
+</head>
+<body>
+    <!-- Div A-->
+    <div class="divA">
+        <!--Div B-->
+        <div class="divB">
+            <!--Paragrafo C-->
+            <p> Texto</p>
+        </div>
+    </div>
+
+    <!--Div D-->
+    <div class="divD"> 
+        <!--Div E-->
+        <div class="divE">
+        </div>
+    </div>
+</body>
+
+<style>
+    body{
+        margin: 0;
+    }
+
+    .divA{
+        width: 600px; 
+        height: 600px; 
+        background-color: #2F472E ;
+    }
+
+    .divB{
+        background-color: #586545; 
+        height: 300px; 
+        width: 300px;
+    }
+
+    p{
+        color: #ffffff; 
+        background-color: #D4BF88; 
+        font-size: 45px; 
+        font-style: italic; 
+        font-weight: bold;
+    }
+
+    .divD{
+        width: 55%; 
+        height: 50vh; 
+        background-color: #ABA172;
+    }
+
+    .divE{
+        width: 120vh; 
+        height: 58%; 
+        background-color: #82835B;
+    }
+
+</style>
+</html>
